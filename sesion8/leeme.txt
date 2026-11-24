@@ -1,0 +1,7 @@
+Se proporcionan dos ficheros de huellas digitales para comprobar la integridad de los ficheros de ayuda (check.md5) y del propio fichero de control de integridad(checkmd5.md5):
+Para comprobar que los archivos de ayuda no han sido modificados ejecuta el siguiente comando:
+		md5sum -c check.md5
+Para comprobar que el fichero de control no ha sigo modificado ejecuta el siguiente comando:
+		md5sum -c checkmd5.md5
+		
+
